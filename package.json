@@ -1,0 +1,37 @@
+{
+  "name": "personal-cv",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "format": "prettier -c -w ./src",
+    "test-dev": "cd _tests && yarn test-dev",
+    "test-build": "cd _tests && yarn test-build",
+    "test-prod": "cd _tests && yarn test-prod",
+    "cdk-synt": "cd _deploy && yarn cdk-synt",
+    "cdk-deploy": "cd _deploy && yarn cdk-deploy",
+    "run-android": "cd _mobile && yarn run-android",
+    "run-web": "cd _mobile && yarn run-web"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@emotion/is-prop-valid": "^1.2.2",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "@types/styled-components": "^5.1.34",
+    "@vitejs/plugin-react": "^4.3.4",
+    "prettier": "^3.5.3",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.4.0",
+    "styled-components": "^6.1.16",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.3",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
