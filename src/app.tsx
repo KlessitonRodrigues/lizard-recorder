@@ -1,24 +1,30 @@
 import { createRoot } from "react-dom/client";
-import { saveMediaFile, startScreenRecord } from "./utils/html";
+import {
+  RouterProvider,
+  createBrowserRouter,
+  createMemoryRouter,
+} from "react-router-dom";
+
+import Router from "src/pages/routes";
+
+import { ThemeProvider } from "./hooks/useTheme";
+import If from "./lib/base/If";
+import AppProviders from "./lib/components/AppProviders";
+import { isEmbbedMobile } from "./styles/utils";
 
 const App = () => {
-  const onScreenRecord = async () => {
-    const extension = "mp4";
-    const blob = await startScreenRecord(true, extension);
-    saveMediaFile(blob, extension);
-    const video = document.getElementById("video-stream") as HTMLVideoElement;
-    video.src = URL.createObjectURL(blob);
-    video.controls = true;
-    video.play();
-  };
+  const isMobile = isEmbbedMobile();
 
   return (
-    <div>
-      <video id="video-stream" width={800} height={600} />
-      <button type="button" onClick={onScreenRecord}>
-        Start Screen Record
-      </button>
-    </div>
+    <ThemeProvider>
+      <AppProviders>
+        <If
+          check={isMobile}
+          true={<RouterProvider router={createMemoryRouter(Router)} />}
+          false={<RouterProvider router={createBrowserRouter(Router)} />}
+        />
+      </AppProviders>
+    </ThemeProvider>
   );
 };
 

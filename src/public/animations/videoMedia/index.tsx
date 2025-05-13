@@ -1,0 +1,1414 @@
+const videoAnimation = () => {
+  return (
+    <div style={{ width: "100%", maxWidth: "50rem" }}>
+      <style
+        dangerouslySetInnerHTML={{
+          __html:
+            "svg#freepik_stories-media-player:not(.animated) .animable {opacity: 0;}svg#freepik_stories-media-player.animated #freepik--Floor--inject-4 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) fadeIn;animation-delay: 0s;}svg#freepik_stories-media-player.animated #freepik--Shadows--inject-4 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideLeft;animation-delay: 0s;}svg#freepik_stories-media-player.animated #freepik--Pictures--inject-4 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideUp;animation-delay: 0s;}svg#freepik_stories-media-player.animated #freepik--Character--inject-4 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomOut;animation-delay: 0s;}svg#freepik_stories-media-player.animated #freepik--side-table--inject-4 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomIn;animation-delay: 0s;}svg#freepik_stories-media-player.animated #freepik--Lamp--inject-4 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomOut;animation-delay: 0s;}svg#freepik_stories-media-player.animated #freepik--Screens--inject-4 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideLeft;animation-delay: 0s;}            @keyframes fadeIn {                0% {                    opacity: 0;                }                100% {                    opacity: 1;                }            }                    @keyframes slideLeft {                0% {                    opacity: 0;                    transform: translateX(-30px);                }                100% {                    opacity: 1;                    transform: translateX(0);                }            }                    @keyframes slideUp {                0% {                    opacity: 0;                    transform: translateY(30px);                }                100% {                    opacity: 1;                    transform: inherit;                }            }                    @keyframes zoomOut {                0% {                    opacity: 0;                    transform: scale(1.5);                }                100% {                    opacity: 1;                    transform: scale(1);                }            }                    @keyframes zoomIn {                0% {                    opacity: 0;                    transform: scale(0.5);                }                100% {                    opacity: 1;                    transform: scale(1);                }            }        .animator-hidden { display: none; }",
+        }}
+      />
+      <svg
+        className="animated"
+        id="freepik_stories-media-player"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 500 500"
+        version="1.1"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        //xmlns:svgjs="http://svgjs.com/svgjs"
+      >
+        <g
+          id="freepik--Floor--inject-4"
+          className="animable animator-hidden"
+          style={{ transformOrigin: "250px 358.74px" }}
+        >
+          <ellipse
+            cx={250}
+            cy="358.74"
+            rx="219.14"
+            ry="126.52"
+            style={{
+              fill: "rgb(245, 245, 245)",
+              transformOrigin: "250px 358.74px",
+            }}
+            id="elozejtjpdhfd"
+            className="animable"
+          />
+        </g>
+        <g
+          id="freepik--Shadows--inject-4"
+          className="animable animator-hidden"
+          style={{ transformOrigin: "235.664px 362.189px" }}
+        >
+          <path
+            d="M163.45,441.91l51.4-29.68a2.8,2.8,0,0,0,0-4.84l-51.4-29.68a7.79,7.79,0,0,0-7.76,0l-51.4,29.68a2.8,2.8,0,0,0,0,4.84l51.4,29.68A7.79,7.79,0,0,0,163.45,441.91Z"
+            style={{
+              fill: "rgb(224, 224, 224)",
+              transformOrigin: "159.57px 409.81px",
+            }}
+            id="elkuz25pbbn7h"
+            className="animable"
+          />
+          <path
+            d="M235.1,400.57,341.73,339a3.83,3.83,0,0,0,0-6.63l-85.25-49.72a8.93,8.93,0,0,0-9,0L140.88,344.2a3.83,3.83,0,0,0,0,6.63l85.26,49.72A8.93,8.93,0,0,0,235.1,400.57Z"
+            style={{
+              fill: "rgb(224, 224, 224)",
+              transformOrigin: "241.305px 341.599px",
+            }}
+            id="elqc7kcl6nxd"
+            className="animable"
+          />
+          <ellipse
+            cx="320.58"
+            cy="399.62"
+            rx="47.85"
+            ry="27.62"
+            style={{
+              fill: "rgb(224, 224, 224)",
+              transformOrigin: "320.58px 399.62px",
+            }}
+            id="elkw9kye35jc"
+            className="animable"
+          />
+        </g>
+        <g
+          id="freepik--Pictures--inject-4"
+          className="animable animator-hidden"
+          style={{ transformOrigin: "99.86px 143.685px" }}
+        >
+          <polygon
+            points="114.65 138.14 114.65 185.54 73.6 209.25 73.6 161.84 114.65 138.14 114.65 138.14"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "94.125px 173.695px",
+            }}
+            id="elqm3ge28k68q"
+            className="animable"
+          />
+          <path
+            d="M110.21,140.7V183L73.6,204.11V161.84l36.61-21.14m2.22-3.85L71.37,160.56V208l2.23,1.28,41.05-23.7v-47.4l-2.22-1.29Z"
+            style={{
+              fill: "rgb(224, 224, 224)",
+              transformOrigin: "93.01px 173.065px",
+            }}
+            id="eloj1agq4f51"
+            className="animable"
+          />
+          <path
+            d="M112.43,142v42.27L75.82,205.4V163.12L112.43,142m2.22-3.85L73.6,161.84v47.4l41.05-23.7v-47.4Z"
+            style={{
+              fill: "rgb(235, 235, 235)",
+              transformOrigin: "94.125px 173.69px",
+            }}
+            id="elypphww6fp9"
+            className="animable"
+          />
+          <polygon
+            points="108.63 174.7 77.57 192.63 86.74 168.75 93.1 176.3 99.59 167.05 108.63 174.7"
+            style={{
+              fill: "rgb(224, 224, 224)",
+              transformOrigin: "93.1px 179.84px",
+            }}
+            id="elbzgivww4z1m"
+            className="animable"
+          />
+          <g id="elyluxrwovvyo">
+            <ellipse
+              cx="95.02"
+              cy="161.44"
+              rx="4.01"
+              ry="2.31"
+              style={{
+                fill: "rgb(224, 224, 224)",
+                transformOrigin: "95.02px 161.44px",
+                transform: "rotate(-60deg)",
+              }}
+              className="animable"
+            />
+          </g>
+          <polygon
+            points="128.35 79.11 128.35 116.88 95.64 135.76 95.64 98 128.35 79.11 128.35 79.11"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "111.995px 107.435px",
+            }}
+            id="ele5cuhwoh4o"
+            className="animable"
+          />
+          <path
+            d="M124.81,81.16v33.68L95.64,131.67V98l29.17-16.84m1.77-3.07L93.87,97v37.76l1.77,1,32.71-18.88V79.12l-1.77-1Z"
+            style={{
+              fill: "rgb(224, 224, 224)",
+              transformOrigin: "111.11px 106.925px",
+            }}
+            id="elyet7a9rh6wq"
+            className="animable"
+          />
+          <path
+            d="M126.58,82.18v33.68L97.41,132.7V99l29.17-16.84m1.77-3.06L95.64,98v37.76l32.71-18.88V79.12Z"
+            style={{
+              fill: "rgb(235, 235, 235)",
+              transformOrigin: "111.995px 107.43px",
+            }}
+            id="el662wro9cc08"
+            className="animable"
+          />
+          <polygon
+            points="123.55 108.24 98.81 122.53 106.11 103.51 111.18 109.52 116.35 102.15 123.55 108.24"
+            style={{
+              fill: "rgb(224, 224, 224)",
+              transformOrigin: "111.18px 112.34px",
+            }}
+            id="ellak3r8ftu1e"
+            className="animable"
+          />
+          <path
+            d="M115,96.38a5,5,0,0,1-2.26,3.91c-1.25.72-2.26.13-2.26-1.31a5,5,0,0,1,2.26-3.91C114,94.35,115,94.94,115,96.38Z"
+            style={{
+              fill: "rgb(224, 224, 224)",
+              transformOrigin: "112.74px 97.68px",
+            }}
+            id="el5qi6dbnzozh"
+            className="animable"
+          />
+        </g>
+        <g
+          id="freepik--Character--inject-4"
+          className="animable"
+          style={{ transformOrigin: "255.155px 288.045px" }}
+        >
+          <path
+            d="M226.71,388.33v7.15a2,2,0,0,0,1.19,1.66,6.31,6.31,0,0,0,5.74,0,2,2,0,0,0,1.19-1.66v-7.15Z"
+            style={{
+              fill: "rgb(235, 235, 235)",
+              transformOrigin: "230.77px 393.08px",
+            }}
+            id="elk16eekuj0sd"
+            className="animable"
+          />
+          <path
+            d="M326.05,331v7.15a2,2,0,0,0,1.19,1.66,6.38,6.38,0,0,0,5.74,0,2,2,0,0,0,1.19-1.66V331Z"
+            style={{
+              fill: "rgb(235, 235, 235)",
+              transformOrigin: "330.11px 335.746px",
+            }}
+            id="el6uugjf7meg3"
+            className="animable"
+          />
+          <path
+            d="M166.49,353.41v7.16a2,2,0,0,0,1.19,1.66,6.38,6.38,0,0,0,5.74,0,2,2,0,0,0,1.19-1.66v-7.16Z"
+            style={{
+              fill: "rgb(235, 235, 235)",
+              transformOrigin: "170.55px 358.161px",
+            }}
+            id="elw4afupcjf8p"
+            className="animable"
+          />
+          <polygon
+            points="248.98 202.85 166.9 247.59 166.9 325.44 268.7 270.85 248.98 202.85"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "217.8px 264.145px",
+            }}
+            id="el5esqbxtl0mt"
+            className="animable"
+          />
+          <path
+            d="M316.7,270.85l0,0-5.13-2.95-49.75-28.44a2.83,2.83,0,0,1-.18-4.81l3.22-2.16-4-27.51a12.66,12.66,0,0,0-6-9l-7.33-4.4a2.33,2.33,0,0,0-3.52,2V293.79a9.72,9.72,0,0,0,5,8.48l69.21,38.65a3.79,3.79,0,0,0,3.68,0h0l.27-.15a3.84,3.84,0,0,0,1.82-3.28V283.43A14.53,14.53,0,0,0,316.7,270.85Z"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "284px 266.325px",
+            }}
+            id="el5dbvrvipt4e"
+            className="animable"
+          />
+          <path
+            d="M156.05,245.19v-.69a9.38,9.38,0,0,1,4.67-8.11L240,190.33a5.67,5.67,0,0,1,5.78,0l8.58,5.17a3.74,3.74,0,0,1,0,6.43l-83.45,49.35Z"
+            style={{
+              fill: "rgb(55, 71, 79)",
+              transformOrigin: "206.12px 220.409px",
+            }}
+            id="elclyofvvvaog"
+            className="animable"
+          />
+          <path
+            d="M260.35,236.8v78.64l55.28,25.29a7.93,7.93,0,0,0,7.19-.3l8.34-4.71V269.56Z"
+            style={{
+              fill: "rgb(38, 50, 56)",
+              transformOrigin: "295.755px 289.125px",
+            }}
+            id="el7g9es8cs2nq"
+            className="animable"
+          />
+          <path
+            d="M259.15,376.35l43.73-24.52a13.87,13.87,0,0,0,.4-24l-43.52-26.34a.78.78,0,0,0-.77,0l-67.64,37.39a.77.77,0,0,0,0,1.33l60,36A7.87,7.87,0,0,0,259.15,376.35Z"
+            style={{
+              fill: "rgb(38, 50, 56)",
+              transformOrigin: "250.483px 339.352px",
+            }}
+            id="elo5mepg8dar"
+            className="animable"
+          />
+          <path
+            d="M254.57,373a3.46,3.46,0,0,0,5.16,3l54-30.1a10.14,10.14,0,0,0,5.19-8.85v-5.31L257,369a4.64,4.64,0,0,0-2.4,4.06Z"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "286.745px 354.093px",
+            }}
+            id="elg9y8vwtn11i"
+            className="animable"
+          />
+          <path
+            d="M258.7,368l57.21-31.46a5.84,5.84,0,0,0,.29-10.06L261,291.84l-69.2,38.24L254.82,368A3.85,3.85,0,0,0,258.7,368Z"
+            style={{
+              fill: "rgb(55, 71, 79)",
+              transformOrigin: "255.366px 330.182px",
+            }}
+            id="elgookkkgmvb7"
+            className="animable"
+          />
+          <path
+            d="M256.36,365.43l57.77-32.77-54.75-43.84-69.2,38.25L254,365.4A2.35,2.35,0,0,0,256.36,365.43Z"
+            style={{
+              fill: "rgb(38, 50, 56)",
+              transformOrigin: "252.155px 327.276px",
+            }}
+            id="eliy7ei31qq9h"
+            className="animable"
+          />
+          <path
+            d="M254.57,345.6v14.95a3.46,3.46,0,0,0,5.16,3l54.4-30.89a9.52,9.52,0,0,0,4.83-8.3V303.19L258.32,339A7.64,7.64,0,0,0,254.57,345.6Z"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "286.765px 333.593px",
+            }}
+            id="elizej1jtqnpk"
+            className="animable"
+          />
+          <path
+            d="M258.76,340.37,316.54,308a4.74,4.74,0,0,0,.13-8.2l-57.29-34.68-69.2,38.25,61.47,36.91A7.06,7.06,0,0,0,258.76,340.37Z"
+            style={{
+              fill: "rgb(55, 71, 79)",
+              transformOrigin: "254.574px 303.203px",
+            }}
+            id="el5iz6vqz51vq"
+            className="animable"
+          />
+          <path
+            d="M277.05,230.11a8.65,8.65,0,0,0-9.16.29l-3.07,2.06-3.22,2.16a2.83,2.83,0,0,0,.18,4.81l49.75,28.44,5,2.84c.08,0,.15.11.24.15A14.79,14.79,0,0,1,324,283.91v53.63a3.84,3.84,0,0,1-1.82,3.28l12.29-6.94a9.29,9.29,0,0,0,4.73-8.09v-52a13.06,13.06,0,0,0-6.48-11.28Z"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "299.774px 284.879px",
+            }}
+            id="elhfx20ose6z5"
+            className="animable"
+          />
+          <path
+            d="M332.67,262.53l-55.62-32.42a8.65,8.65,0,0,0-9.16.29l-3.07,2.06-3.22,2.16a2.83,2.83,0,0,0,.18,4.81l49.75,28.44,5,2.84c.08,0,.15.11.24.15a13.55,13.55,0,0,1,5.58,6l15.05-9.63A13.15,13.15,0,0,0,332.67,262.53Z"
+            style={{
+              fill: "rgb(55, 71, 79)",
+              transformOrigin: "298.874px 252.899px",
+            }}
+            id="elalo23vy2yr"
+            className="animable"
+          />
+          <path
+            d="M204.12,177.73s-2.18-16.65,25.22-16.65c22.84,0,22,24.63,7.4,31.71Z"
+            style={{
+              fill: "rgb(38, 50, 56)",
+              transformOrigin: "225.634px 176.935px",
+            }}
+            id="elo8vgfbgt8o"
+            className="animable"
+          />
+          <circle
+            cx="206.38"
+            cy="183.96"
+            r="9.57"
+            style={{
+              fill: "rgb(38, 50, 56)",
+              transformOrigin: "206.38px 183.96px",
+            }}
+            id="el044470zoudyb"
+            className="animable"
+          />
+          <path
+            d="M248.36,183.94a7.7,7.7,0,1,1-7.69-7.69A7.69,7.69,0,0,1,248.36,183.94Z"
+            style={{
+              fill: "rgb(38, 50, 56)",
+              transformOrigin: "240.66px 183.95px",
+            }}
+            id="elmfbbija9de8"
+            className="animable"
+          />
+          <circle
+            cx="208.13"
+            cy="196.88"
+            r="9.57"
+            style={{
+              fill: "rgb(38, 50, 56)",
+              transformOrigin: "208.13px 196.88px",
+            }}
+            id="el7dtgacr6adl"
+            className="animable"
+          />
+          <circle
+            cx="218.78"
+            cy="202.85"
+            r="9.57"
+            style={{
+              fill: "rgb(38, 50, 56)",
+              transformOrigin: "218.78px 202.85px",
+            }}
+            id="elzihtoii9dqe"
+            className="animable"
+          />
+          <path
+            d="M291.77,352.9l19.37,25.73-5.38,4.25S298,381.26,295.27,371A122.32,122.32,0,0,1,291.77,352.9Z"
+            style={{
+              fill: "rgb(255, 168, 167)",
+              transformOrigin: "301.455px 367.89px",
+            }}
+            id="elu4afre6ki7a"
+            className="animable"
+          />
+          <path
+            d="M290,351.15s-5.37,4.87-3,9.24,6.5,7.87,6.63,13.62,3,16,9.37,17.62,12.61-.6,12.49-2.86-4.37-10.14-4.37-10.14-5.86,3.63-10.18.13-5.32-18.24-5.32-18.24Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "300.944px 371.668px",
+            }}
+            id="elj0l7bkehdm"
+            className="animable"
+          />
+          <g id="eljuvuqsuss5p">
+            <path
+              d="M290,351.15s-5.37,4.87-3,9.24,6.5,7.87,6.63,13.62,3,16,9.37,17.62,12.61-.6,12.49-2.86-4.37-10.14-4.37-10.14-5.86,3.63-10.18.13-5.32-18.24-5.32-18.24Z"
+              style={{ opacity: "0.2", transformOrigin: "300.944px 371.668px" }}
+              className="animable"
+            />
+          </g>
+          <path
+            d="M257,271.48s43.13,18.25,46.63,20,9.62,5,9,19-4.13,48.89-4.13,48.89l-23.65-45.48-61.07-29.06Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "268.227px 315.425px",
+            }}
+            id="el1iaiczdlu6l"
+            className="animable"
+          />
+          <g id="elmk84311nss">
+            <path
+              d="M257,271.48s43.13,18.25,46.63,20,9.62,5,9,19-4.13,48.89-4.13,48.89l-23.65-45.48-61.07-29.06Z"
+              style={{ opacity: "0.5", transformOrigin: "268.227px 315.425px" }}
+              className="animable"
+            />
+          </g>
+          <path
+            d="M310.23,341.37c-.92,9.94-1.73,18-1.73,18l-23.65-45.48L241.31,293.2l9.89-7.74c13.92,7,34.13,17.13,40.16,20.22,7.69,3.93,10.06,15.07,16.68,30.54C308.74,337.86,309.48,339.59,310.23,341.37Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "275.77px 322.415px",
+            }}
+            id="eliaf8o1ot7ta"
+            className="animable"
+          />
+          <g id="elfovpd2gf2kt">
+            <path
+              d="M310.23,341.37c-.92,9.94-1.73,18-1.73,18l-23.65-45.48L241.31,293.2l9.89-7.74c13.92,7,34.13,17.13,40.16,20.22,7.69,3.93,10.06,15.07,16.68,30.54C308.74,337.86,309.48,339.59,310.23,341.37Z"
+              style={{ opacity: "0.7", transformOrigin: "275.77px 322.415px" }}
+              className="animable"
+            />
+          </g>
+          <polygon
+            points="253.43 280.78 248.98 287.51 252.46 288.04 253.43 280.78"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "251.205px 284.41px",
+            }}
+            id="el9ahqh3083yh"
+            className="animable"
+          />
+          <g id="elbkrkp5a8gtt">
+            <polygon
+              points="253.43 280.78 248.98 287.51 252.46 288.04 253.43 280.78"
+              style={{ opacity: "0.7", transformOrigin: "251.205px 284.41px" }}
+              className="animable"
+            />
+          </g>
+          <path
+            d="M310.88,388.77s-.62,1-.62,6.24,2,6.23,4.65,7.17,10.22,6.47,12.33,8.9,10.54,5,18.87,3.47,10.11-7,6.09-10.49-15.44-10-15.44-10Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "332.26px 401.89px",
+            }}
+            id="eln11szick6ck"
+            className="animable"
+          />
+          <path
+            d="M211,282.25,229.56,278s51.53,25.84,59.21,29.78,10.06,15.07,16.68,30.54c5,11.64,11.48,27.61,15.77,37.2,0,0-3.05,8.1-12.72,6.07h0c-3.28-7.15-9.07-13.55-17.48-24.9-7.29-9.84-10.13-18.53-11.24-23.74a8.34,8.34,0,0,0-6.17-6.39c-8.51-2.07-25.84-6.55-44.14-12.86C203.7,304.78,211,282.25,211,282.25Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "265.633px 329.958px",
+            }}
+            id="elvlqpvt03db"
+            className="animable"
+          />
+          <g id="elhsa6kf7pkxo">
+            <path
+              d="M211,282.25,229.56,278s51.53,25.84,59.21,29.78,10.06,15.07,16.68,30.54c5,11.64,11.48,27.61,15.77,37.2,0,0-3.05,8.1-12.72,6.07h0c-3.28-7.15-9.07-13.55-17.48-24.9-7.29-9.84-10.13-18.53-11.24-23.74a8.34,8.34,0,0,0-6.17-6.39c-8.51-2.07-25.84-6.55-44.14-12.86C203.7,304.78,211,282.25,211,282.25Z"
+              style={{ opacity: "0.5", transformOrigin: "265.633px 329.958px" }}
+              className="animable"
+            />
+          </g>
+          <path
+            d="M321.22,375.48c1.41,3.16,2.59,5.63,3.39,7,3.23,5.62,12.67,11.71,16,14.58s4,4,.86,6.4c-8,6.16-15-.56-19.5-4.87a56.08,56.08,0,0,0-9.87-7.22,2,2,0,0,1-1-1.41,33.4,33.4,0,0,0-2.61-8.44h0C318.17,383.58,321.22,375.48,321.22,375.48Z"
+            style={{
+              fill: "rgb(255, 168, 167)",
+              transformOrigin: "325.995px 390.711px",
+            }}
+            id="elerb9mlevhjo"
+            className="animable"
+          />
+          <polygon
+            points="230.68 299.87 263.13 318.6 317.07 287.41 284.63 268.3 230.68 299.87"
+            style={{
+              fill: "rgb(235, 235, 235)",
+              transformOrigin: "273.875px 293.45px",
+            }}
+            id="elgguro4q6d75"
+            className="animable"
+          />
+          <polygon
+            points="259.64 294.54 271.81 287.51 264.18 283.11 252.01 290.14 259.64 294.54"
+            style={{
+              fill: "rgb(224, 224, 224)",
+              transformOrigin: "261.91px 288.825px",
+            }}
+            id="elg3hs5ecf0x7"
+            className="animable"
+          />
+          <polygon
+            points="264.51 313.92 248.11 304.27 280.15 284.88 264.51 313.92"
+            style={{
+              fill: "rgb(224, 224, 224)",
+              transformOrigin: "264.13px 299.4px",
+            }}
+            id="elmkir7rciny"
+            className="animable"
+          />
+          <path
+            d="M263.55,256.05l13,6.08A115.59,115.59,0,0,1,288,265.67s9,3.7,9.44,6.12-6.78,8.25-13.09,5.41a20.86,20.86,0,0,0-5.27-1.91c-1.69-.18-6.73-1-10.37-4.44L258.2,268S252.8,257.55,263.55,256.05Z"
+            style={{
+              fill: "rgb(255, 168, 167)",
+              transformOrigin: "277.151px 267.006px",
+            }}
+            id="elebbgecvd32b"
+            className="animable"
+          />
+          <path
+            d="M272,274.15c1.51,1.61,5.79,5.67,6.73,6.85s3.14-1.85-.73-6.35a36.28,36.28,0,0,1-9.35-5.09A37.66,37.66,0,0,0,272,274.15Z"
+            style={{
+              fill: "rgb(255, 168, 167)",
+              transformOrigin: "274.429px 275.408px",
+            }}
+            id="ell3srhgo6ol"
+            className="animable"
+          />
+          <path
+            d="M237,210.92h0a12.76,12.76,0,0,1,14.1,8.55,56.18,56.18,0,0,1,2.63,12.75c1.13,13.37,1.44,20.05,1.44,20.05l13.43,6.09s-7.25.35-6.76,10.59l-16.73-4.22Z"
+            style={{
+              fill: "rgb(255, 168, 167)",
+              transformOrigin: "252.8px 239.856px",
+            }}
+            id="eldyxaga5fsyr"
+            className="animable"
+          />
+          <path
+            d="M254.12,236.93q-.18-2.19-.39-4.71a56.18,56.18,0,0,0-2.63-12.75,12.76,12.76,0,0,0-14.1-8.55l4.91,32.61Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "245.56px 227.146px",
+            }}
+            id="elpnbj3gbnl9"
+            className="animable"
+          />
+          <g id="elzy8f1uvxj0f">
+            <path
+              d="M254.12,236.93q-.18-2.19-.39-4.71a56.18,56.18,0,0,0-2.63-12.75,12.76,12.76,0,0,0-14.1-8.55l4.91,32.61Z"
+              style={{ opacity: "0.2", transformOrigin: "245.56px 227.146px" }}
+              className="animable"
+            />
+          </g>
+          <path
+            d="M255.17,252.27a9.32,9.32,0,0,0-4,2.44s1.62-3.08,3.89-4Z"
+            style={{
+              fill: "rgb(242, 143, 143)",
+              transformOrigin: "253.17px 252.71px",
+            }}
+            id="elwqsclcjwue"
+            className="animable"
+          />
+          <path
+            d="M215.81,216.23l-9.43,4v27.63a61.2,61.2,0,0,1,4.72,22.3v13.68s19.26,6.86,34.2-.56c7.24-3.6,11.71-11.81,11.71-11.81s-8-4.68-8-10.4a79.5,79.5,0,0,1,1.59-13.3,16,16,0,0,0,4.59-13.4c-1.06-9.12-18.23-23.46-18.23-23.46l-6.4.88Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "231.695px 248.82px",
+            }}
+            id="elxbcqxcrbynh"
+            className="animable"
+          />
+          <polygon
+            points="215.81 216.23 230.6 211.8 230.6 193.9 215.81 193.9 215.81 216.23"
+            style={{
+              fill: "rgb(255, 168, 167)",
+              transformOrigin: "223.205px 205.065px",
+            }}
+            id="eli2lswuhn9s"
+            className="animable"
+          />
+          <path
+            d="M230.6,211.8A23.81,23.81,0,0,1,217,198.87v-5H230.6Z"
+            style={{
+              fill: "rgb(242, 143, 143)",
+              transformOrigin: "223.8px 202.835px",
+            }}
+            id="el62po5kpatcd"
+            className="animable"
+          />
+          <path
+            d="M234.05,169.65s13.53.79,11.85,23.92c-.77,10.7-3.27,16.24-11.51,15.83-9.33-.46-22.58-6.87-21.71-25.17S234.05,169.65,234.05,169.65Z"
+            style={{
+              fill: "rgb(255, 168, 167)",
+              transformOrigin: "229.342px 189.38px",
+            }}
+            id="el2p5tkgcbc9u"
+            className="animable"
+          />
+          <path
+            d="M215.81,193.9s3.71,1,3.71-4.34c0,0,16.48-1.12,20.12-17.47,0,0-1.63-4.9-11.92-4.9s-18.94,9.1-16.25,21.61Z"
+            style={{
+              fill: "rgb(38, 50, 56)",
+              transformOrigin: "225.307px 180.582px",
+            }}
+            id="el30t8aem80ua"
+            className="animable"
+          />
+          <polygon
+            points="235.99 188.93 235.99 196.88 240.64 195.45 235.99 188.93"
+            style={{
+              fill: "rgb(242, 143, 143)",
+              transformOrigin: "238.315px 192.905px",
+            }}
+            id="el519rsreqx7"
+            className="animable"
+          />
+          <path
+            d="M229,189.77a1.62,1.62,0,1,0,1.62-1.62A1.62,1.62,0,0,0,229,189.77Z"
+            style={{
+              fill: "rgb(38, 50, 56)",
+              transformOrigin: "230.62px 189.77px",
+            }}
+            id="el1vfsmglw6i4"
+            className="animable"
+          />
+          <path
+            d="M239.64,188.65a1.62,1.62,0,1,0,1.62-1.62A1.62,1.62,0,0,0,239.64,188.65Z"
+            style={{
+              fill: "rgb(38, 50, 56)",
+              transformOrigin: "241.26px 188.65px",
+            }}
+            id="eltt8cdd7uu5f"
+            className="animable"
+          />
+          <path
+            d="M243.23,185.27l-3.17-1.88s1.22-1.26,2.43-.5A2.2,2.2,0,0,1,243.23,185.27Z"
+            style={{
+              fill: "rgb(38, 50, 56)",
+              transformOrigin: "241.694px 183.958px",
+            }}
+            id="eln1lfc9pkyyl"
+            className="animable"
+          />
+          <path
+            d="M235.58,199.52a8.24,8.24,0,0,1-5.21-1.4s-.36,2.75,1.94,3.27S235.58,199.52,235.58,199.52Z"
+            style={{
+              fill: "rgb(242, 143, 143)",
+              transformOrigin: "232.965px 199.792px",
+            }}
+            id="eljhz0ae9jed"
+            className="animable"
+          />
+          <path
+            d="M217.12,194.5a9,9,0,0,0-.73-3.93,4.15,4.15,0,0,0-3.6-2.81c-4.16-.12-4.72,3.88-4.66,5.31.15,3.74,3.17,7.78,8.81,7.93Z"
+            style={{
+              fill: "rgb(255, 168, 167)",
+              transformOrigin: "212.627px 194.379px",
+            }}
+            id="el07x60dxlxskx"
+            className="animable"
+          />
+          <path
+            d="M230.6,211.8l4.36,5.67a5.51,5.51,0,0,1-1.81,8.25h0a9.42,9.42,0,0,1-11.72-2.46l-5.62-7Z"
+            style={{
+              fill: "rgb(255, 168, 167)",
+              transformOrigin: "225.959px 219.296px",
+            }}
+            id="el3jxai7esnrs"
+            className="animable"
+          />
+          <path
+            d="M230.68,280l12.37,6.73a36.7,36.7,0,0,1,5.69,0c2.18.26,8,1.32,9.49,1.39s.06,2.87-3.87,2.62c0,0,8.87,4.06,9.18,6.5s-7.11,8-13.31,4.87a20.08,20.08,0,0,0-5.18-2.13c-1.69-.25-6.68-1.25-10.18-4.87l-10.37-3.31S219.88,281.07,230.68,280Z"
+            style={{
+              fill: "rgb(255, 168, 167)",
+              transformOrigin: "243.534px 291.521px",
+            }}
+            id="elvkyeiij1a0f"
+            className="animable"
+          />
+          <path
+            d="M206.38,220.24s7.51,5.19,6.26,21.14a187.66,187.66,0,0,0,0,29.07L230.68,280a13.78,13.78,0,0,0-6.18,11.8s-25.94-5.34-27.49-11.38-2.12-34.94-2.12-40S197,224.26,206.38,220.24Z"
+            style={{
+              fill: "rgb(255, 168, 167)",
+              transformOrigin: "212.785px 256.02px",
+            }}
+            id="elsknmgenf4b"
+            className="animable"
+          />
+          <path
+            d="M194.89,240.47c0,2.13.11,8.54.34,15.68a24.14,24.14,0,0,0,16.85.5h0c0-4.45.12-9.69.56-15.27,1.25-15.95-6.26-21.14-6.26-21.14C197,224.26,194.89,235.44,194.89,240.47Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "203.835px 239.085px",
+            }}
+            id="el8c2rn6r4zjj"
+            className="animable"
+          />
+          <g id="elrxkjppl61n">
+            <path
+              d="M194.89,240.47c0,2.13.11,8.54.34,15.68a24.14,24.14,0,0,0,16.85.5h0c0-4.45.12-9.69.56-15.27,1.25-15.95-6.26-21.14-6.26-21.14C197,224.26,194.89,235.44,194.89,240.47Z"
+              style={{ opacity: "0.2", transformOrigin: "203.835px 239.085px" }}
+              className="animable"
+            />
+          </g>
+          <path
+            d="M212.62,270.45a14.51,14.51,0,0,0-5.8,1.06,12.46,12.46,0,0,1,5.69-2.5Z"
+            style={{
+              fill: "rgb(242, 143, 143)",
+              transformOrigin: "209.72px 270.26px",
+            }}
+            id="elz6vbfbxqxg"
+            className="animable"
+          />
+          <path
+            d="M324.59,251.67,319,288.59s0,0,0,.06l-56,32.49a.09.09,0,0,1-.13-.09l5.47-35.8a5.35,5.35,0,0,1,2.48-3.72L322.09,250A1.66,1.66,0,0,1,324.59,251.67Z"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "293.739px 285.455px",
+            }}
+            id="eld9m90whstrs"
+            className="animable"
+          />
+          <path
+            d="M262.88,321.14,233,303.81a4.58,4.58,0,0,1-2.27-3.94h0l32.45,18.73Z"
+            style={{
+              fill: "rgb(224, 224, 224)",
+              transformOrigin: "246.955px 310.505px",
+            }}
+            id="eleuvheh2041i"
+            className="animable"
+          />
+          <path
+            d="M292.16,287.25c0,2.63,1.86,3.7,4.14,2.38a9.14,9.14,0,0,0,4.13-7.16c0-2.64-1.85-3.7-4.13-2.39A9.17,9.17,0,0,0,292.16,287.25Z"
+            style={{
+              fill: "rgb(224, 224, 224)",
+              transformOrigin: "296.295px 284.857px",
+            }}
+            id="elh8o2ic649jr"
+            className="animable"
+          />
+          <g id="ele3kr15qpvbg">
+            <path
+              d="M237,249.76s-11.31,3.08-17.31-5.42C219.69,244.34,223.57,255.31,237,249.76Z"
+              style={{ opacity: "0.2", transformOrigin: "228.345px 247.834px" }}
+              className="animable"
+            />
+          </g>
+          <path
+            d="M205.63,173.78s-2.75-7-4.4-6.15,1.7,5.29,1.7,5.29-5.62-2.2-6.09-.9,7.18,4.23,7.18,4.23Z"
+            style={{
+              fill: "rgb(38, 50, 56)",
+              transformOrigin: "201.225px 171.904px",
+            }}
+            id="ellyphpas91aq"
+            className="animable"
+          />
+          <path
+            d="M228.76,322.51c-.08,0-.14-.1-.22-.14l-5-2.84,5.13,3Z"
+            style={{ fill: "none", transformOrigin: "226.15px 321.03px" }}
+            id="elp3wm4g6pexm"
+            className="animable"
+          />
+          <path
+            d="M228.76,322.51l0,0-5.13-3-49.75-28.44a2.83,2.83,0,0,1-.17-4.81l3.21-2.16-4-27.5a12.62,12.62,0,0,0-6-9l-7.33-4.39a2.32,2.32,0,0,0-3.52,2V345.45a9.73,9.73,0,0,0,5,8.48l69.21,38.65a3.8,3.8,0,0,0,3.67.05h0l.27-.15A3.83,3.83,0,0,0,236,389.2V335.09A14.54,14.54,0,0,0,228.76,322.51Z"
+            style={{
+              fill: "rgb(38, 50, 56)",
+              transformOrigin: "196.035px 317.977px",
+            }}
+            id="elq15nsd0i54l"
+            className="animable"
+          />
+          <path
+            d="M189.11,281.78a8.63,8.63,0,0,0-9.16.28l-3.08,2.06-3.21,2.16a2.83,2.83,0,0,0,.17,4.81l49.75,28.44,5,2.84.24.16a14.76,14.76,0,0,1,7.22,13V389.2a3.83,3.83,0,0,1-1.82,3.28l12.3-6.93a9.29,9.29,0,0,0,4.72-8.1v-52a13,13,0,0,0-6.47-11.27Z"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "211.822px 336.54px",
+            }}
+            id="elyixltvazufk"
+            className="animable"
+          />
+          <path
+            d="M244.73,314.2l-55.62-32.42a8.63,8.63,0,0,0-9.16.28l-3.08,2.06-3.21,2.16a2.83,2.83,0,0,0,.17,4.81l49.75,28.44,5,2.84.24.16a13.6,13.6,0,0,1,5.59,6l15-9.62A13,13,0,0,0,244.73,314.2Z"
+            style={{
+              fill: "rgb(55, 71, 79)",
+              transformOrigin: "210.907px 304.565px",
+            }}
+            id="elv8xcunu6my"
+            className="animable"
+          />
+        </g>
+        <g
+          id="freepik--side-table--inject-4"
+          className="animable"
+          style={{ transformOrigin: "162.565px 378.405px" }}
+        >
+          <polygon
+            points="206.3 347.92 206.3 413.06 158.81 385.64 158.81 320.5 206.3 347.92"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "182.555px 366.78px",
+            }}
+            id="elpkw17q05y6g"
+            className="animable"
+          />
+          <g id="elizu2yt4ym3k">
+            <polygon
+              points="206.3 347.92 206.3 413.06 158.81 385.64 158.81 320.5 206.3 347.92"
+              style={{ opacity: "0.4", transformOrigin: "182.555px 366.78px" }}
+              className="animable"
+            />
+          </g>
+          <polygon
+            points="210.05 345.83 210.05 410.98 206.3 413.06 206.3 347.92 210.05 345.83"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "208.175px 379.445px",
+            }}
+            id="eldclrsqd1gv9"
+            className="animable"
+          />
+          <polygon
+            points="162.56 373.25 162.56 438.39 115.08 410.98 115.08 345.83 162.56 373.25"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "138.82px 392.11px",
+            }}
+            id="el5h3636myevi"
+            className="animable"
+          />
+          <g id="elj9nibjiy729">
+            <polygon
+              points="162.56 373.25 162.56 438.39 115.08 410.98 115.08 345.83 162.56 373.25"
+              style={{ opacity: "0.4", transformOrigin: "138.82px 392.11px" }}
+              className="animable"
+            />
+          </g>
+          <polygon
+            points="166.32 371.17 166.32 436.31 162.56 438.39 162.56 373.25 166.32 371.17"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "164.44px 404.78px",
+            }}
+            id="elhn3w4bo3mq"
+            className="animable"
+          />
+          <polygon
+            points="162.56 378.44 210.05 351.03 210.05 345.83 162.56 373.25 162.56 378.44"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "186.305px 362.135px",
+            }}
+            id="elsu5ocksusq"
+            className="animable"
+          />
+          <polygon
+            points="162.56 438.39 210.05 410.98 210.05 373.56 162.56 400.98 162.56 438.39"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "186.305px 405.975px",
+            }}
+            id="elwh385q7vy8r"
+            className="animable"
+          />
+          <polygon
+            points="162.56 373.25 210.05 345.83 162.56 318.42 115.08 345.83 162.56 373.25"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "162.565px 345.835px",
+            }}
+            id="eln4pvx5xa9xi"
+            className="animable"
+          />
+          <g id="elf8448bao6i7">
+            <polygon
+              points="162.56 373.25 210.05 345.83 162.56 318.42 115.08 345.83 162.56 373.25"
+              style={{ opacity: "0.2", transformOrigin: "162.565px 345.835px" }}
+              className="animable"
+            />
+          </g>
+          <polygon
+            points="166.32 399.78 206.3 376.7 206.3 353.18 166.32 376.26 166.32 399.78"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "186.31px 376.48px",
+            }}
+            id="elh09cp1jvsem"
+            className="animable"
+          />
+          <g id="elxn2wv8safvk">
+            <polygon
+              points="166.32 399.78 206.3 376.7 206.3 353.18 166.32 376.26 166.32 399.78"
+              style={{
+                fill: "rgb(255, 255, 255)",
+                opacity: "0.6",
+                transformOrigin: "186.31px 376.48px",
+              }}
+              className="animable"
+            />
+          </g>
+          <path
+            d="M185.9,374.53a2.91,2.91,0,1,0,2.91-2.91A2.91,2.91,0,0,0,185.9,374.53Z"
+            style={{
+              fill: "rgb(255, 255, 255)",
+              transformOrigin: "188.81px 374.53px",
+            }}
+            id="el9jtzctbemh8"
+            className="animable"
+          />
+          <polygon
+            points="166.32 429.05 206.3 405.97 206.3 382.45 166.32 405.53 166.32 429.05"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "186.31px 405.75px",
+            }}
+            id="el6uyoprc8kss"
+            className="animable"
+          />
+          <g id="elh96zmhiki88">
+            <polygon
+              points="166.32 429.05 206.3 405.97 206.3 382.45 166.32 405.53 166.32 429.05"
+              style={{
+                fill: "rgb(255, 255, 255)",
+                opacity: "0.6",
+                transformOrigin: "186.31px 405.75px",
+              }}
+              className="animable"
+            />
+          </g>
+          <path
+            d="M185.9,403.8a2.91,2.91,0,1,0,2.91-2.91A2.91,2.91,0,0,0,185.9,403.8Z"
+            style={{
+              fill: "rgb(255, 255, 255)",
+              transformOrigin: "188.81px 403.8px",
+            }}
+            id="elzap9rcq62l"
+            className="animable"
+          />
+        </g>
+        <g
+          id="freepik--Lamp--inject-4"
+          className="animable animator-hidden"
+          style={{ transformOrigin: "161.168px 313.107px" }}
+        >
+          <path
+            d="M150.12,341.4a7.22,7.22,0,0,1,2.88-2.78c4.51-2.6,11.82-2.6,16.33,0a7.22,7.22,0,0,1,2.88,2.78h.5v1.94h0c0,1.71-1.12,3.41-3.38,4.71-4.51,2.61-11.82,2.61-16.33,0-2.26-1.3-3.39-3-3.39-4.71h0V341.4Z"
+            style={{
+              fill: "rgb(38, 50, 56)",
+              transformOrigin: "161.16px 343.339px",
+            }}
+            id="elf8wqxxptvta"
+            className="animable"
+          />
+          <path
+            d="M153,346.11c4.51,2.61,11.82,2.61,16.33,0s4.51-6.82,0-9.43-11.82-2.6-16.33,0S148.49,343.51,153,346.11Z"
+            style={{
+              fill: "rgb(55, 71, 79)",
+              transformOrigin: "161.165px 341.397px",
+            }}
+            id="elvhk2rx8jayo"
+            className="animable"
+          />
+          <g id="elrq7qxdupz6o">
+            <path
+              d="M160.92,286.14h.49a2.26,2.26,0,0,1,2.26,2.26v53a0,0,0,0,1,0,0h-5a0,0,0,0,1,0,0v-53a2.26,2.26,0,0,1,2.26-2.26Z"
+              style={{
+                fill: "rgb(38, 50, 56)",
+                transformOrigin: "161.17px 313.77px",
+                transform: "rotate(-180deg)",
+              }}
+              className="animable"
+            />
+          </g>
+          <path
+            d="M138.78,307.08h0c.07-.27.16-.55.26-.82l7.08-22.52h30.09l7.08,22.52c.1.27.19.55.26.82h0c1,3.94-1.15,8.09-6.39,11.12-8.84,5.09-23.16,5.09-32,0C139.93,315.17,137.8,311,138.78,307.08Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "161.168px 302.879px",
+            }}
+            id="eloeuxe9xxsf"
+            className="animable"
+          />
+          <g id="el7xq3wyw0ako">
+            <path
+              d="M138.78,307.08h0c.07-.27.16-.55.26-.82l7.08-22.52h30.09l7.08,22.52c.1.27.19.55.26.82h0c1,3.94-1.15,8.09-6.39,11.12-8.84,5.09-23.16,5.09-32,0C139.93,315.17,137.8,311,138.78,307.08Z"
+              style={{
+                fill: "rgb(255, 255, 255)",
+                opacity: "0.4",
+                transformOrigin: "161.168px 302.879px",
+              }}
+              className="animable"
+            />
+          </g>
+          <ellipse
+            cx="161.16"
+            cy={285}
+            rx="15.2"
+            ry="8.77"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "161.16px 285px",
+            }}
+            id="el6ya6693ve07"
+            className="animable"
+          />
+          <path
+            d="M161.16,276.22V278a20.08,20.08,0,0,1,9.86,2.33c2.29,1.32,3.56,3,3.56,4.66s-1.27,3.33-3.56,4.66a22,22,0,0,1-19.71,0c-2.29-1.33-3.56-3-3.56-4.66s1.27-3.34,3.56-4.66a20.06,20.06,0,0,1,9.85-2.33v-1.79m0,0a22,22,0,0,0-10.74,2.57c-5.94,3.43-5.94,9,0,12.41a23.75,23.75,0,0,0,21.49,0c5.94-3.42,5.94-9,0-12.41a22,22,0,0,0-10.75-2.57Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "161.165px 284.983px",
+            }}
+            id="elycv1ydtwnkb"
+            className="animable"
+          />
+          <g id="elt2zn0viyk7q">
+            <path
+              d="M161.16,276.22V278a20.08,20.08,0,0,1,9.86,2.33c2.29,1.32,3.56,3,3.56,4.66s-1.27,3.33-3.56,4.66a22,22,0,0,1-19.71,0c-2.29-1.33-3.56-3-3.56-4.66s1.27-3.34,3.56-4.66a20.06,20.06,0,0,1,9.85-2.33v-1.79m0,0a22,22,0,0,0-10.74,2.57c-5.94,3.43-5.94,9,0,12.41a23.75,23.75,0,0,0,21.49,0c5.94-3.42,5.94-9,0-12.41a22,22,0,0,0-10.75-2.57Z"
+              style={{
+                fill: "rgb(255, 255, 255)",
+                opacity: "0.2",
+                transformOrigin: "161.165px 284.983px",
+              }}
+              className="animable"
+            />
+          </g>
+        </g>
+        <g
+          id="freepik--Screens--inject-4"
+          className="animable"
+          style={{ transformOrigin: "358.766px 147.133px" }}
+        >
+          <path
+            d="M454.32,138.21,320.49,60.94c-1.53-.89-2.92-.82-3.89,0L312,64.13,315.12,68V176c0,3.95,2.41,8.54,5.37,10.26L453,262.73l.25,4.2,4.88-3.34a5.06,5.06,0,0,0,1.57-4.15v-111C459.69,144.51,457.29,139.92,454.32,138.21Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "385.861px 163.614px",
+            }}
+            id="ellllrdgm39rc"
+            className="animable"
+          />
+          <g id="eljeuqb1y1c8o">
+            <path
+              d="M454.32,138.21,320.49,60.94c-1.53-.89-2.92-.82-3.89,0L312,64.13,315.12,68V176c0,3.95,2.41,8.54,5.37,10.26L453,262.73l.25,4.2,4.88-3.34a5.06,5.06,0,0,0,1.57-4.15v-111C459.69,144.51,457.29,139.92,454.32,138.21Z"
+              style={{ opacity: "0.3", transformOrigin: "385.861px 163.614px" }}
+              className="animable"
+            />
+          </g>
+          <path
+            d="M449.77,266.63,315.93,189.36c-3-1.71-5.37-6.3-5.37-10.26v-111c0-3.95,2.41-5.77,5.37-4l133.84,77.26c3,1.72,5.36,6.31,5.36,10.26v111C455.13,266.53,452.73,268.34,449.77,266.63Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "382.845px 165.348px",
+            }}
+            id="eluhozaeqckm"
+            className="animable"
+          />
+          <polygon
+            points="424.77 252.2 434.1 257.59 367.72 93.98 367.72 93.98 357.26 87.94 424.77 252.2"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "395.68px 172.765px",
+            }}
+            id="elllg1rue8v0g"
+            className="animable"
+          />
+          <g id="elh7ye93im5p6">
+            <polygon
+              points="424.77 252.2 434.1 257.59 367.72 93.98 367.72 93.98 357.26 87.94 424.77 252.2"
+              style={{
+                fill: "rgb(255, 255, 255)",
+                opacity: "0.2",
+                transformOrigin: "395.68px 172.765px",
+              }}
+              className="animable"
+            />
+          </g>
+          <polygon
+            points="445.78 264.35 449.03 266.14 382.64 102.53 382.64 102.53 378.28 100.09 445.78 264.35"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "413.655px 183.115px",
+            }}
+            id="elviiijz5z0lf"
+            className="animable"
+          />
+          <g id="elp9m41hvo87">
+            <polygon
+              points="445.78 264.35 449.03 266.14 382.64 102.53 382.64 102.53 378.28 100.09 445.78 264.35"
+              style={{
+                fill: "rgb(255, 255, 255)",
+                opacity: "0.2",
+                transformOrigin: "413.655px 183.115px",
+              }}
+              className="animable"
+            />
+          </g>
+          <path
+            d="M328.74,87.06c0,2.27-1.6,3.19-3.57,2.06A7.9,7.9,0,0,1,321.61,83c0-2.28,1.6-3.2,3.56-2.06A7.87,7.87,0,0,1,328.74,87.06Z"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "325.175px 85.0269px",
+            }}
+            id="elxsugmk4tw3c"
+            className="animable"
+          />
+          <path
+            d="M350.62,99.66a.92.92,0,0,1-.45-.12l-17.08-9.87a.9.9,0,0,1,.9-1.56L351.07,98a.9.9,0,0,1,.33,1.23A.89.89,0,0,1,350.62,99.66Z"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "342.08px 93.8248px",
+            }}
+            id="elfv25dgzazzc"
+            className="animable"
+          />
+          <path
+            d="M444,241.52a1.23,1.23,0,0,1-.64-.17L321,170.68a1.29,1.29,0,1,1,1.29-2.24l122.38,70.67a1.29,1.29,0,0,1-.65,2.41Z"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "382.835px 204.893px",
+            }}
+            id="el0jsq8pp5oynp"
+            className="animable"
+          />
+          <path
+            d="M444,150a.66.66,0,0,1-.33-.09L440.38,148a.67.67,0,0,1-.24-.92.66.66,0,0,1,.92-.25l3.27,1.89A.67.67,0,0,1,444,150Z"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "442.388px 148.369px",
+            }}
+            id="elgb03u82dkai"
+            className="animable"
+          />
+          <path
+            d="M444,152.4a.66.66,0,0,1-.33-.09l-3.28-1.89a.67.67,0,0,1-.24-.92.66.66,0,0,1,.92-.25l3.27,1.89a.67.67,0,0,1-.34,1.26Z"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "442.375px 150.778px",
+            }}
+            id="el9z0h0tb1utr"
+            className="animable"
+          />
+          <path
+            d="M444,154.81a.66.66,0,0,1-.33-.09l-3.28-1.89a.67.67,0,0,1-.24-.92.66.66,0,0,1,.92-.25l3.27,1.89a.67.67,0,0,1-.34,1.26Z"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "442.375px 153.188px",
+            }}
+            id="el02tfyl8i5x58"
+            className="animable"
+          />
+          <path
+            d="M370.12,142.91v18.57a1.25,1.25,0,0,0,1.39,1.24l16.87-2a1.25,1.25,0,0,0,.73-2.13L372.24,142A1.24,1.24,0,0,0,370.12,142.91Z"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "379.8px 152.18px",
+            }}
+            id="elcs66o2cb5xh"
+            className="animable"
+          />
+          <path
+            d="M373.68,198.13l-51.42-29.69a1.29,1.29,0,1,0-1.29,2.24l52.71,30.44Z"
+            style={{
+              fill: "rgb(235, 235, 235)",
+              transformOrigin: "347px 184.693px",
+            }}
+            id="elrk3bw155bjs"
+            className="animable"
+          />
+          <path
+            d="M377.24,201.38c0,2.27-1.59,3.19-3.56,2.06a7.88,7.88,0,0,1-3.56-6.18c0-2.27,1.59-3.19,3.56-2A7.86,7.86,0,0,1,377.24,201.38Z"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "373.68px 199.331px",
+            }}
+            id="elym3icchqd6d"
+            className="animable"
+          />
+          <path
+            d="M331.79,184v4.88a.33.33,0,0,0,.37.32l4.43-.51a.33.33,0,0,0,.19-.56l-4.43-4.37A.33.33,0,0,0,331.79,184Z"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "334.333px 186.435px",
+            }}
+            id="eldoig6oi1q3r"
+            className="animable"
+          />
+          <path
+            d="M342.71,190.67v4.88a.33.33,0,0,0,.36.32l4.44-.51a.33.33,0,0,0,.19-.56l-4.43-4.37A.33.33,0,0,0,342.71,190.67Z"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "345.253px 193.104px",
+            }}
+            id="el3bajoadvu7x"
+            className="animable"
+          />
+          <path
+            d="M347.8,198.66a.39.39,0,0,1-.4-.39v-5.44a.4.4,0,0,1,.8,0v5.44A.39.39,0,0,1,347.8,198.66Z"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "347.8px 195.547px",
+            }}
+            id="elubkmibub8e7"
+            className="animable"
+          />
+          <path
+            d="M325.81,184.64v-4.88a.33.33,0,0,0-.37-.33L321,180a.33.33,0,0,0-.19.56l4.43,4.36A.33.33,0,0,0,325.81,184.64Z"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "323.265px 182.228px",
+            }}
+            id="elqdvi5m9dr8"
+            className="animable"
+          />
+          <path
+            d="M320.72,182.88a.4.4,0,0,1-.4-.4V177a.4.4,0,1,1,.8,0v5.44A.4.4,0,0,1,320.72,182.88Z"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "320.721px 179.738px",
+            }}
+            id="elqhd64hoe7ir"
+            className="animable"
+          />
+          <path
+            d="M439.2,246.58a.45.45,0,0,1-.45-.45v-2a.46.46,0,0,1,.68-.39l1.67,1a.45.45,0,0,1,.17.61.46.46,0,0,1-.62.17l-1-.58v1.2A.45.45,0,0,1,439.2,246.58Z"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "440.038px 245.132px",
+            }}
+            id="elc4sgqe7up9d"
+            className="animable"
+          />
+          <path
+            d="M440.88,251.6a.49.49,0,0,1-.23-.06l-1.67-1a.45.45,0,0,1-.23-.39v-1.8a.45.45,0,1,1,.9,0v1.54l1.45.84a.45.45,0,0,1,.17.61A.43.43,0,0,1,440.88,251.6Z"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "440.038px 249.75px",
+            }}
+            id="el699zg6b5p88"
+            className="animable"
+          />
+          <path
+            d="M444.43,253.65a.48.48,0,0,1-.23-.07l-1.73-1a.46.46,0,0,1-.16-.62.45.45,0,0,1,.61-.16l1.06.61v-1a.45.45,0,0,1,.45-.45.45.45,0,0,1,.45.45v1.76a.44.44,0,0,1-.23.38A.47.47,0,0,1,444.43,253.65Z"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "443.565px 252.305px",
+            }}
+            id="elgju7yu1pfsi"
+            className="animable"
+          />
+          <path
+            d="M444.43,249.58a.45.45,0,0,1-.45-.45v-1.7l-1-.6a.45.45,0,1,1,.45-.78l1.26.73a.44.44,0,0,1,.23.39v2A.45.45,0,0,1,444.43,249.58Z"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "443.837px 247.786px",
+            }}
+            id="elln3hs0tde1"
+            className="animable"
+          />
+          <path
+            d="M432.86,247a.46.46,0,0,1-.23-.06l-6.35-3.67a.47.47,0,0,1-.22-.39v-6a.47.47,0,0,1,.22-.39.45.45,0,0,1,.45,0l6.35,3.67a.45.45,0,0,1,.23.39v6a.46.46,0,0,1-.45.45Zm-5.9-4.38,5.45,3.15v-5L427,237.6Z"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "429.685px 241.715px",
+            }}
+            id="elsl1mexr38mm"
+            className="animable"
+          />
+          <path
+            d="M302,49.74l-39.1-22.42a1.68,1.68,0,0,0-2,0L258.53,29l1.61,2v28.9a6.55,6.55,0,0,0,2.75,5.24l38.42,22,.13,2.16,2.49-1.71a2.59,2.59,0,0,0,.81-2.13V55A6.55,6.55,0,0,0,302,49.74Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "281.64px 58.145px",
+            }}
+            id="elg5nk8uz6ydc"
+            className="animable"
+          />
+          <g id="elukoqdpw9zs">
+            <path
+              d="M302,49.74l-39.1-22.42a1.68,1.68,0,0,0-2,0L258.53,29l1.61,2v28.9a6.55,6.55,0,0,0,2.75,5.24l38.42,22,.13,2.16,2.49-1.71a2.59,2.59,0,0,0,.81-2.13V55A6.55,6.55,0,0,0,302,49.74Z"
+              style={{ opacity: "0.3", transformOrigin: "281.64px 58.145px" }}
+              className="animable"
+            />
+          </g>
+          <path
+            d="M299.66,89.11l-39.1-22.42a6.55,6.55,0,0,1-2.75-5.24V31c0-2,1.23-2.95,2.75-2.07l39.1,22.41a6.59,6.59,0,0,1,2.75,5.25V87C302.41,89.06,301.18,90,299.66,89.11Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "280.11px 59.0232px",
+            }}
+            id="elijipd3ifap"
+            className="animable"
+          />
+          <path
+            d="M267.1,40.68c0,1.16-.81,1.63-1.82,1a4,4,0,0,1-1.82-3.16c0-1.16.81-1.63,1.82-1A4,4,0,0,1,267.1,40.68Z"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "265.28px 39.6px",
+            }}
+            id="el0wzsp8abso9"
+            className="animable"
+          />
+          <path
+            d="M278.29,47.12a.46.46,0,0,1-.23-.06L269.33,42a.46.46,0,1,1,.46-.79l8.73,5a.47.47,0,0,1,.17.63A.48.48,0,0,1,278.29,47.12Z"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "273.902px 44.1195px",
+            }}
+            id="el1k72963sx4a"
+            className="animable"
+          />
+          <path
+            d="M275.16,54.27v9.5a.64.64,0,0,0,.71.63l8.62-1a.64.64,0,0,0,.38-1.09l-8.62-8.49A.64.64,0,0,0,275.16,54.27Z"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "280.109px 59.0195px",
+            }}
+            id="el7gthl1rsd38"
+            className="animable"
+          />
+          <path
+            d="M302,97.05l-39.1-22.42a1.7,1.7,0,0,0-2,0l-2.36,1.64,1.61,2v28.89a6.55,6.55,0,0,0,2.75,5.24l38.42,22,.13,2.15,2.49-1.71a2.59,2.59,0,0,0,.81-2.13V102.29A6.57,6.57,0,0,0,302,97.05Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "281.65px 105.427px",
+            }}
+            id="eltq23ipxcrbq"
+            className="animable"
+          />
+          <g id="elxnm92aizcx">
+            <path
+              d="M302,97.05l-39.1-22.42a1.7,1.7,0,0,0-2,0l-2.36,1.64,1.61,2v28.89a6.55,6.55,0,0,0,2.75,5.24l38.42,22,.13,2.15,2.49-1.71a2.59,2.59,0,0,0,.81-2.13V102.29A6.57,6.57,0,0,0,302,97.05Z"
+              style={{ opacity: "0.3", transformOrigin: "281.65px 105.427px" }}
+              className="animable"
+            />
+          </g>
+          <path
+            d="M299.66,136.42,260.56,114a6.59,6.59,0,0,1-2.75-5.25V78.31c0-2,1.23-3,2.75-2.07l39.1,22.42a6.55,6.55,0,0,1,2.75,5.24v30.45C302.41,136.37,301.18,137.3,299.66,136.42Z"
+            style={{
+              fill: "rgb(212, 177, 6)",
+              transformOrigin: "280.11px 106.321px",
+            }}
+            id="el9ae2hj5dgx9"
+            className="animable"
+          />
+          <path
+            d="M267.1,88c0,1.16-.81,1.63-1.82,1.05a4,4,0,0,1-1.82-3.16c0-1.16.81-1.63,1.82-1A4,4,0,0,1,267.1,88Z"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "265.28px 86.9537px",
+            }}
+            id="el2eharak2s3p"
+            className="animable"
+          />
+          <path
+            d="M278.29,94.43a.46.46,0,0,1-.23-.06l-8.73-5.05a.46.46,0,1,1,.46-.79l8.73,5a.47.47,0,0,1,.17.63A.46.46,0,0,1,278.29,94.43Z"
+            style={{
+              fill: "rgb(69, 90, 100)",
+              transformOrigin: "273.902px 91.4345px",
+            }}
+            id="elxn91o156cs"
+            className="animable"
+          />
+          <path
+            d="M283.68,102l-8.26,1.67-.3,7.31a1.68,1.68,0,1,0,.94,1.5h0l.48-6.69,6-1.42.06,6.41a1.67,1.67,0,1,0,.11,3,1.69,1.69,0,0,0,.89-1.41h0Z"
+            style={{
+              fill: "rgb(250, 250, 250)",
+              transformOrigin: "278.19px 108.084px",
+            }}
+            id="elmt6tttobjor"
+            className="animable"
+          />
+        </g>
+        <defs>
+          {" "}
+          <filter id="active" height="200%">
+            {" "}
+            <feMorphology
+              in="SourceAlpha"
+              result="DILATED"
+              operator="dilate"
+              radius={2}
+            />{" "}
+            <feFlood floodColor="#32DFEC" floodOpacity={1} result="PINK" />{" "}
+            <feComposite
+              in="PINK"
+              in2="DILATED"
+              operator="in"
+              result="OUTLINE"
+            />{" "}
+            <feMerge>
+              {" "}
+              <feMergeNode in="OUTLINE" />{" "}
+              <feMergeNode in="SourceGraphic" />{" "}
+            </feMerge>{" "}
+          </filter>{" "}
+          <filter id="hover" height="200%">
+            {" "}
+            <feMorphology
+              in="SourceAlpha"
+              result="DILATED"
+              operator="dilate"
+              radius={2}
+            />{" "}
+            <feFlood floodColor="#ff0000" floodOpacity="0.5" result="PINK" />{" "}
+            <feComposite
+              in="PINK"
+              in2="DILATED"
+              operator="in"
+              result="OUTLINE"
+            />{" "}
+            <feMerge>
+              {" "}
+              <feMergeNode in="OUTLINE" />{" "}
+              <feMergeNode in="SourceGraphic" />{" "}
+            </feMerge>{" "}
+            <feColorMatrix
+              type="matrix"
+              values="0   0   0   0   0                0   1   0   0   0                0   0   0   0   0                0   0   0   1   0 "
+            />{" "}
+          </filter>
+        </defs>
+      </svg>
+    </div>
+  );
+};
+
+export default videoAnimation;
